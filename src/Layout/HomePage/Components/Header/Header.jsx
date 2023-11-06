@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./Header.scss";
 import apple from "../../../../images/apple.svg";
 import image from "../../../../images/headerImg.png";
 
