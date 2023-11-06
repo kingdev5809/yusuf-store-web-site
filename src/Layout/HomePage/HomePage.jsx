@@ -12,7 +12,7 @@ function HomePage() {
       <Category />
       <Discount />
       <NewProducts />
-      {/* anitaion there */}
+      {/* animaion there */}
       <FamousProducts />
       {/* animation there */}
     </div>
