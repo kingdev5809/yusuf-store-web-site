@@ -1,0 +1,48 @@
+$color_1: #000;
+$font-family_1: "Roboto";
+
+nav {
+  max-width: 100%;
+  background: #d7d7d7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  .nav__searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 0 23px;
+    border-radius: 10px;
+    border: 1px solid black;
+    input {
+      width: 250px;
+      border: none;
+      outline: none;
+      padding: 15px;
+    }
+  }
+  .nav__menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    li {
+      a {
+        color: $color_1;
+        font-family: $font-family_1;
+        font-size: 1.25rem;
+        font-weight: 700;
+      }
+    }
+  }
+  .nav__icons {
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    a {
+      color: $color_1;
+    }
+  }
+}
