@@ -8,6 +8,7 @@ import FamousProducts from "./Components/Product/FamousProducts";
 function HomePage() {
   return (
     <div>
+    
       <Header />
       <Category />
       <Discount />
