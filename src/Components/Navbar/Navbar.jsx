@@ -12,9 +12,9 @@ import { faHeart } from "@fortawesome/free-regular-svg-icons";
 function Navbar() {
   return (
     <nav>
-      <div className="nav__logo">
+      <a href="/" className="nav__logo">
         <img src={logo} alt="" />
-      </div>
+      </a>
       <div className="nav__searchBar">
         <FontAwesomeIcon icon={faMagnifyingGlass} />
         <input type="text"></input>

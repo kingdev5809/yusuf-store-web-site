@@ -1,11 +1,23 @@
-import React from 'react'
-import "./Header.scss"
+import React from "react";
+import "./Header.css";
+import apple from "../../../../images/apple.svg";
+import image from "../../../../images/headerImg.png";
+
 function Header() {
   return (
-    <div>
-      
+    <div className="header">
+      <div className="left_side">
+        <img src={apple} alt="" />
+        <h1>Apple Watch </h1>
+        <p>Aqlliroq. Yorqinroq. Qudratliroq.</p>
+        <span>399$ dan boshlab</span>
+        <button type="button">Harid qilish</button>
+      </div>
+      <div className="right_side">
+        <img src={image} alt="" />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -42,20 +42,20 @@ nav .nav__menu {
     justify-content: space-between;
 }
 
-nav .nav__menu li a{
+nav .nav__menu li a {
     color: #000;
     font-family: 'Roboto';
     font-size: 1.25rem;
     font-weight: 700;
 }
 
-nav .nav__icons{
+nav .nav__icons {
     width: 7%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav .nav__icons a{
+nav .nav__icons a {
     color: #000;
 }

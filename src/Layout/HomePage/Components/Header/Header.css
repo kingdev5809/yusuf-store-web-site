@@ -1,6 +1,6 @@
 .header {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #F2F2F2;
 }
-.header nav {
-  display: flex;
-}/*# sourceMappingURL=Header.css.map */
