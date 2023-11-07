@@ -14,15 +14,16 @@ function Category() {
       <div className="content">
         <h2>Kategoriyalar</h2>
         <Swiper
-          slidesPerView={6}
+          slidesPerView={8}
           spaceBetween={30}
-          freeMode={true}
+          // freeMode={true}
           pagination={{
             clickable: true,
           }}
-          loop={true}
+          // loop={true}
           modules={[FreeMode, Pagination]}
-          className="mySwiper">
+          className="mySwiper"
+        >
           <SwiperSlide>
             <CategoryItem />
           </SwiperSlide>

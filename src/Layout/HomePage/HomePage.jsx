@@ -8,11 +8,12 @@ import FamousProducts from "./Components/Product/FamousProducts";
 function HomePage() {
   return (
     <div>
-    
       <Header />
-      <Category />
-      <Discount />
-      <NewProducts />
+      <div className="container">
+        <Category />
+        <Discount />
+        <NewProducts />
+      </div>
       {/* animaion there */}
       <FamousProducts />
       {/* animation there */}

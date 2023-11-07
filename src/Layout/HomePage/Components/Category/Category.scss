@@ -3,11 +3,9 @@
   align-items: start;
   justify-content: center;
   width: 100%;
-  height: 30vh;
+  min-height: 40vh;
   padding-top: 30px;
 }
-
-
 
 .category .content h2 {
   color: #204746;
@@ -25,7 +23,7 @@
 }
 
 .swiper-slide {
-  width: 168px !important;
+  // width: 168px !important;
   height: 181px !important;
   display: flex !important;
   flex-direction: column;
