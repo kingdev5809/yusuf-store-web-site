@@ -1,8 +1,8 @@
 import React from "react";
 import { SwiperSlide } from "swiper/react";
 import "swiper/css"; // Ensure Swiper's CSS is imported
-import iphone from "../../../../images/iphone.png";
 import "./Category.scss";
+import { iphone } from "../../../../Assets/photo";
 
 const CategoryItem = () => {
   return (

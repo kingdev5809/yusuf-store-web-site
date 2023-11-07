@@ -1,7 +1,6 @@
 $color_1: #000;
 $color_2: #fff;
 $font-family_1: "Roboto";
-$font-family_2: Roboto;
 $background-color_1: #f2f2f2;
 
 .header {
@@ -28,7 +27,7 @@ $background-color_1: #f2f2f2;
     p {
       color: $color_1;
       text-align: center;
-      font-family: $font-family_2;
+      font-family: $font-family_1;
       font-size: 2rem;
       font-style: normal;
       font-weight: 700;
@@ -39,7 +38,7 @@ $background-color_1: #f2f2f2;
     span {
       color: $color_1;
       text-align: center;
-      font-family: $font-family_2;
+      font-family: $font-family_1;
       font-size: 1.25rem;
       font-style: normal;
       font-weight: 700;
@@ -55,7 +54,7 @@ $background-color_1: #f2f2f2;
       border-radius: 35px;
       background: #ff3d00;
       color: $color_2;
-      font-family: $font-family_2;
+      font-family: $font-family_1;
       font-size: 1.25rem;
       font-style: normal;
       font-weight: 600;
@@ -68,6 +67,7 @@ $background-color_1: #f2f2f2;
     img {
       height: 100%;
       width: 100%;
+      cursor: pointer;
     }
   }
 }

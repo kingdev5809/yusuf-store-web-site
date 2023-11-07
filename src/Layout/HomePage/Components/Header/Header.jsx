@@ -1,7 +1,6 @@
 import React from "react";
 import "./Header.scss";
-import apple from "../../../../images/apple.svg";
-import image from "../../../../images/headerImg.png";
+import { apple, headerImg } from "../../../../Assets/photo";
 
 function Header() {
   return (
@@ -14,7 +13,7 @@ function Header() {
         <button type="button">Harid qilish</button>
       </div>
       <div className="right_side">
-        <img src={image} alt="" />
+        <img src={headerImg} alt="" />
       </div>
     </div>
   );

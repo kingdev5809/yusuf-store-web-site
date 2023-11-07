@@ -5,7 +5,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper/modules";
-import iphone from "../../../../images/iphone.png";
 import CategoryItem from "./CategoryItem";
 
 function Category() {

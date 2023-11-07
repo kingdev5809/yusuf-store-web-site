@@ -4,6 +4,7 @@ import Category from "./Components/Category/Category";
 import Discount from "./Components/Discount/Discount";
 import NewProducts from "./Components/Product/NewProducts";
 import FamousProducts from "./Components/Product/FamousProducts";
+import Animation from "./Components/Animation/Animation";
 
 function HomePage() {
   return (
@@ -14,7 +15,7 @@ function HomePage() {
         <Discount />
         <NewProducts />
       </div>
-      {/* animaion there */}
+      <Animation />
       <FamousProducts />
       {/* animation there */}
     </div>
