@@ -40,7 +40,15 @@
           width: 20vw;
           //   height: 50vh;
         }
+        .swiper-pagination {
+          bottom: 0px;
+          &-bullet {
+            width: 20px;
+            height: 20px;
+          }
+        }
         &-item {
+          padding: 30px 0;
           img {
             height: 200px;
           }
