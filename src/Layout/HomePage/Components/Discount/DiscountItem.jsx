@@ -1,5 +1,4 @@
 import React from "react";
-import { appleWatchPhoto } from "../../../../Assets/photo";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 
