@@ -4,24 +4,40 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 import CategoryItem from "./CategoryItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
 
 function Category() {
   return (
     <div className="category">
       <div className="content">
-        <h2>Kategoriyalar</h2>
+        <div className="title">
+          <h2>Kategoriyalar</h2>
+          <div className="navigation-swiper">
+            <span className="button-prev_category-slider">
+              <FontAwesomeIcon icon={faChevronLeft} />
+            </span>
+            <span className="button-next_category-slider">
+              <FontAwesomeIcon icon={faChevronRight} />
+            </span>
+          </div>
+        </div>
         <Swiper
           slidesPerView={8}
           spaceBetween={30}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
           // loop={true}
-          modules={[Pagination, Navigation]}
-          className="mySwiper">
+          navigation={{
+            nextEl: ".button-next_category-slider",
+            prevEl: ".button-prev_category-slider",
+          }}
+          modules={[Navigation]}
+          className="mySwiper"
+        >
           <SwiperSlide>
             <CategoryItem />
           </SwiperSlide>
