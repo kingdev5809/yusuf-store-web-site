@@ -13,15 +13,21 @@
   color: white;
 }
 
+.animationBlack.white {
+  background-color: white;
+  color: black;
+}
+
 .animationBlack .right_side {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .animationBlack .right_side .title {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -42,7 +48,7 @@
 }
 
 .animationBlack .right_side button {
-    width: 200px;
+  width: 200px;
   display: inline-flex;
   padding: 12px 20px;
   justify-content: center;
